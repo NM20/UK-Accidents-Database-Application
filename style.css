@@ -1,0 +1,64 @@
+.temp1
+{
+    text-align: center;
+    padding: 10px;
+    background: rgb(63,68,112);
+    font-family: 'georgia';
+    color: white;
+}
+.temp2
+{
+    font-family: 'georgia';
+    background: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px; 
+    cursor: pointer;
+}
+a
+{
+    color: white !important;
+}
+.col:hover
+{
+    background: white;
+}
+.temp2:hover>a
+{
+    text-decoration: none !important;
+    color: black !important;
+}
+.main
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 25px;
+}
+.demo
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.demo1
+{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.tuplecount
+{
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-top: 0px;
+}
+.bg
+{
+    background-color: rgb(224,224,224);
+}

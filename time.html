@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TIME TREND</title>
+	<link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+        <div class="row">
+            <div class="col-12 temp1">
+                <h1>UK ACCIDENTS DATABASE APPLICATION</h1>
+            </div>
+        </div>
+        <div class="row">
+          	<div class="col temp2"><a href="home.php">HOME</a></div>
+          	<div class="col temp2"><a href="accident.html">ACCIDENTS</a></div>
+            <div class="col temp2"><a href="age.html">AGE TREND</a></div>
+            <div class="col temp2"><a href="time.html">TIME TREND</a></div>
+            <div class="col temp2"><a href="holiday.html">DAY TREND</a></div>
+            <div class="col temp2"><a href="vehicle.html">VEHICLE</a></div>
+            <div class="col temp2"><a href="ac.html">ACC COUNT</a></div>
+            <div class="col temp2"><a href="tuple.php">TUPLE COUNT</a></div>
+        </div>    
+    </div>
+    <center>
+		<div class = "main">TIME TREND</div>
+		<h6 class="demo">FINDING PERCENTAGE OF ACCIDENTES OBSERVRD IN DIFFERENT TIME PERIODS OVER THE YEAR.</h6>
+		<form method="post">
+			<select name = "year" class = "demo">
+				<option>SELECT YEAR</option>
+				<option value = "2005">2005</option>
+				<option value = "2006">2006</option>
+				<option value = "2007">2007</option>
+				<option value = "2008">2008</option>
+				<option value = "2009">2009</option>
+				<option value = "2010">2010</option>
+				<option value = "2011">2011</option>
+				<option value = "2012">2012</option>
+				<option value = "2013">2013</option>
+				<option value = "2014">2014</option>
+				<option value = "2015">2015</option>
+			</select>
+			<div class = "demo1">
+				 <button formaction = "time_query4.php" id="myButton1" class="btn btn-primary">PIE CHART</button>
+			</div>
+		</form>
+	</center>
+</body>
+</html>
+
+<script type="text/javascript">
+    document.getElementById("myButton1").onclick = function () {
+        location.href = "time_query4.php";
+    };
+</script>
